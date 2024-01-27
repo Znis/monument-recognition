@@ -38,11 +38,11 @@ class Category(BaseModel):
 
 
 
-host_server = os.environ.get('host_server', 'dumbo.db.elephantsql.com')
+host_server = os.environ.get('host_server', '')
 db_server_port = urllib.parse.quote_plus(str(os.environ.get('db_server_port', '5432')))
 database_name = os.environ.get('database_name', 'cvnafgef')
-db_username = urllib.parse.quote_plus(str(os.environ.get('db_username', 'cvnafgef')))
-db_password = urllib.parse.quote_plus(str(os.environ.get('db_password', 'We0J8I38vS3jBZ9iWFokCCQlHD88ZHMU')))
+db_username = urllib.parse.quote_plus(str(os.environ.get('db_username', '')))
+db_password = urllib.parse.quote_plus(str(os.environ.get('db_password', '')))
 ssl_mode = urllib.parse.quote_plus(str(os.environ.get('ssl_mode','prefer')))
 DATABASE_URL = 'postgresql://{}:{}@{}:{}/{}?sslmode={}'.format(db_username, db_password, host_server, db_server_port, database_name, ssl_mode)
 
