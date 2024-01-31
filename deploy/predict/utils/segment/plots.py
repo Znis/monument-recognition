@@ -64,7 +64,7 @@ def bw_mask(imgO, masks, colors = [(255, 255, 255)], alpha=1):
 
     # [n, 1, 1, 3]
     # faster this way to transform colors
-    colors = torch.tensor(colors, device='cuda:0').float() / 255.0
+    colors = torch.tensor(colors, device=img.device).float() / 255.0
     colors = colors[:, None, None, :]
     # [n, h, w, 1]
     masks = masks[:, :, :, None]
