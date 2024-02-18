@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\layout_activity_nearby_places_page.xml.flat",
-        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\activity_nearby_places_page.xml"
-    },
-    {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-debug-45:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\layout_activity_nearby_places_page.xml.flat",
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\activity_nearby_places_page.xml"
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\drawable-hdpi_ic_action_name.png.flat",
@@ -49,7 +49,7 @@
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-debug-45:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\layout_custom_title_layout8.xml.flat",
@@ -64,10 +64,6 @@
         "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-debug-45:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-44:/layout_activity_details_page.xml.flat",
-        "source": "org.tensorflow.lite.examples.objectdetection.app-main-46:/layout/activity_details_page.xml"
-    },
-    {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-debug-45:\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -77,11 +73,11 @@
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-debug-45:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-debug-45:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\layout_custom_title_layout2.xml.flat",
@@ -121,7 +117,7 @@
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.png"
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-debug-45:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\xml_network_security_config.xml.flat",
@@ -133,7 +129,7 @@
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\mipmap-hdpi\\ic_launcher_foreground.png"
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-debug-45:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\drawable_bullet.xml.flat",
@@ -189,11 +185,11 @@
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\mipmap-xxhdpi\\ic_launcher.png"
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-debug-45:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-debug-45:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\drawable_toilet.png.flat",
@@ -201,7 +197,7 @@
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\mipmap-hdpi\\ic_launcher_round.png"
+        "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-debug-45:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\layout_fragment_camera.xml.flat",
@@ -222,6 +218,10 @@
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\layout_custom_title_layout7.xml.flat",
         "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\custom_title_layout7.xml"
+    },
+    {
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-merged_res-44:/layout_activity_nearby_places_page.xml.flat",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-46:/layout/activity_nearby_places_page.xml"
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-merged_res-44:\\drawable_ic_launcher_background.xml.flat",

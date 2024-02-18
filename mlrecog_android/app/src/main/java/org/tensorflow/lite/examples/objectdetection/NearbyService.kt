@@ -87,7 +87,7 @@ class NearbyService : AppCompatActivity() {
                 lng1 = String.format("%.5f", location.longitude)
                 locationvar = "($lat1,$lng1)"
             }else{
-                Toast.makeText(this, "Location Gave Null", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Please Turn On Location", Toast.LENGTH_SHORT).show()
             }
 
 
@@ -100,7 +100,7 @@ class NearbyService : AppCompatActivity() {
 
         // Make API request using Volley
         val queue = Volley.newRequestQueue(this)
-        val url = "http://20.204.180.252:8000/nearbyplaces"
+        val url = "https://mlrecog-062v.onrender.com/nearbyplaces"
 
         val jsonObject = JSONObject()
         jsonObject.put("category", category)

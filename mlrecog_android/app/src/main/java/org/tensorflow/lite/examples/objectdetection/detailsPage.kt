@@ -19,6 +19,7 @@ import com.google.gson.JsonParser
 import com.tbuonomo.viewpagerdotsindicator.DotsIndicator
 import org.json.JSONArray
 import org.json.JSONObject
+import java.util.*
 
 
 class detailsPage : AppCompatActivity() {
@@ -54,9 +55,11 @@ class detailsPage : AppCompatActivity() {
 
         // Make API request using Volley
         val queue = Volley.newRequestQueue(this)
-        val url = "http://20.204.180.252:8000/details"
+        val url = "https://mlrecog-062v.onrender.com/details"
 
         val jsonObject = JSONObject()
+
+
         jsonObject.put("name", receivedData)
 
 
@@ -80,6 +83,7 @@ class detailsPage : AppCompatActivity() {
 //                imageNames = imageNames.substring(1)
 //                imageNames = imageNames.dropLast(1)
 //                Toast.makeText(this, listOf(imageNames)[0], Toast.LENGTH_LONG).show()
+
 
 
 
@@ -113,7 +117,7 @@ class detailsPage : AppCompatActivity() {
                 // Handle error received from API request
                 // Set ProgressBar visibility to gone and show error message to the user
                 progressBar.visibility = View.GONE
-                Toast.makeText(this, "Error: Server Req Failed", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Error: Server Request Failed", Toast.LENGTH_SHORT).show()
             })
 
         queue.add(request)

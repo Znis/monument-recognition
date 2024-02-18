@@ -8,7 +8,7 @@
     <GridLayout
         android:id="@+id/cardGrid"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="400dp"
         android:layout_marginBottom="320dp"
         android:columnCount="2"
         android:orientation="horizontal"
@@ -22,7 +22,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/card1"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_height="80dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
@@ -40,7 +40,7 @@
                 android:orientation="vertical">
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="68dp"
+                android:layout_height="58dp"
                 android:layout_marginVertical="10dp"
                 android:layout_marginHorizontal="10dp"
                 android:src="@drawable/monument"/>
@@ -78,7 +78,7 @@
                 android:orientation="vertical">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="68dp"
+                    android:layout_height="58dp"
                     android:layout_marginVertical="10dp"
                     android:layout_marginHorizontal="10dp"
                     android:src="@drawable/hotel"/>
@@ -99,7 +99,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/card3"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_height="80dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
@@ -117,7 +117,7 @@
                 android:orientation="vertical">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="68dp"
+                    android:layout_height="58dp"
                     android:layout_marginVertical="10dp"
                     android:layout_marginHorizontal="10dp"
                     android:src="@drawable/bus"/>
@@ -155,7 +155,7 @@
                 android:orientation="vertical">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="68dp"
+                    android:layout_height="58dp"
                     android:layout_marginVertical="10dp"
                     android:layout_marginHorizontal="10dp"
                     android:src="@drawable/toilet"/>
@@ -175,7 +175,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/card5"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_height="80dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="8dp"
@@ -193,7 +193,7 @@
                 android:orientation="vertical">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="68dp"
+                    android:layout_height="58dp"
                     android:layout_marginVertical="10dp"
                     android:layout_marginHorizontal="10dp"
                     android:src="@drawable/exchange"/>
@@ -230,7 +230,7 @@
                 android:orientation="vertical">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="68dp"
+                    android:layout_height="58dp"
                     android:layout_marginVertical="10dp"
                     android:layout_marginHorizontal="10dp"
                     android:src="@drawable/atm"/>
@@ -253,10 +253,10 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_margin="8dp"
-        android:layout_marginStart="403dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="411dp"
-        android:layout_marginBottom="504dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
         android:background="@android:color/white"
         android:focusable="true"
         android:foreground="?android:attr/selectableItemBackground"

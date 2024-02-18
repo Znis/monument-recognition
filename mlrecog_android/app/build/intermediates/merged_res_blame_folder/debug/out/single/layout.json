@@ -16,8 +16,8 @@
         "source": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-main-46:\\layout\\activity_details_page.xml"
     },
     {
-        "merged": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:/layout/activity_details_page.xml",
-        "source": "org.tensorflow.lite.examples.objectdetection.app-main-46:/layout/activity_details_page.xml"
+        "merged": "org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:/layout/activity_nearby_places_page.xml",
+        "source": "org.tensorflow.lite.examples.objectdetection.app-main-46:/layout/activity_nearby_places_page.xml"
     },
     {
         "merged": "C:\\Users\\metwa\\.gradle\\daemon\\7.4\\org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43:\\layout\\custom_title_layout6.xml",

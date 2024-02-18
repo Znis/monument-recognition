@@ -59,7 +59,7 @@ class NearbyPlacesPage : AppCompatActivity() {
 
 
             }else{
-                Toast.makeText(this, "Location Gave Null", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Please Turn On Location", Toast.LENGTH_SHORT).show()
             }
 
 

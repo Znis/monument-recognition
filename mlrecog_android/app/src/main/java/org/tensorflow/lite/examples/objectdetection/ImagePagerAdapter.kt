@@ -19,9 +19,11 @@ class ImagePagerAdapter(private val context: Context, private val imageNames: Li
 
         val imagePathName = foldername + "-" + imageNames[position]
 
+
+
         try {
             Glide.with(context)
-                .load("http://20.204.180.252:8000/images/$imagePathName")
+                .load("https://mlrecog-062v.onrender.com/images/$imagePathName")
                 .into(imageView)
         } catch (e: IOException) {
             e.printStackTrace()

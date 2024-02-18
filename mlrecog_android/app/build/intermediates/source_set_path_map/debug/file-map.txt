@@ -37,11 +37,11 @@ org.tensorflow.lite.examples.objectdetection.app-jetified-appcompat-resources-1.
 org.tensorflow.lite.examples.objectdetection.app-jetified-lifecycle-viewmodel-ktx-2.4.0-36 C:\Users\metwa\.gradle\caches\transforms-3\ebb71661ee3e0fe1d2463ac2ae12367b\transformed\jetified-lifecycle-viewmodel-ktx-2.4.0\res
 org.tensorflow.lite.examples.objectdetection.app-jetified-emoji2-views-helper-1.0.0-37 C:\Users\metwa\.gradle\caches\transforms-3\f47c76281afb6a01a8bfdfa67f92900d\transformed\jetified-emoji2-views-helper-1.0.0\res
 org.tensorflow.lite.examples.objectdetection.app-jetified-savedstate-1.1.0-38 C:\Users\metwa\.gradle\caches\transforms-3\fdd5342c65b1e691433309c9cbf3219a\transformed\jetified-savedstate-1.1.0\res
-org.tensorflow.lite.examples.objectdetection.app-pngs-39 C:\Users\metwa\Downloads\od\app\build\generated\res\pngs\debug
-org.tensorflow.lite.examples.objectdetection.app-resValues-40 C:\Users\metwa\Downloads\od\app\build\generated\res\resValues\debug
-org.tensorflow.lite.examples.objectdetection.app-rs-41 C:\Users\metwa\Downloads\od\app\build\generated\res\rs\debug
-org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-42 C:\Users\metwa\Downloads\od\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43 C:\Users\metwa\Downloads\od\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-org.tensorflow.lite.examples.objectdetection.app-merged_res-44 C:\Users\metwa\Downloads\od\app\build\intermediates\merged_res\debug
-org.tensorflow.lite.examples.objectdetection.app-debug-45 C:\Users\metwa\Downloads\od\app\src\debug\res
-org.tensorflow.lite.examples.objectdetection.app-main-46 C:\Users\metwa\Downloads\od\app\src\main\res
+org.tensorflow.lite.examples.objectdetection.app-pngs-39 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\build\generated\res\pngs\debug
+org.tensorflow.lite.examples.objectdetection.app-resValues-40 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\build\generated\res\resValues\debug
+org.tensorflow.lite.examples.objectdetection.app-rs-41 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\build\generated\res\rs\debug
+org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-42 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+org.tensorflow.lite.examples.objectdetection.app-mergeDebugResources-43 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+org.tensorflow.lite.examples.objectdetection.app-merged_res-44 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\build\intermediates\merged_res\debug
+org.tensorflow.lite.examples.objectdetection.app-debug-45 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\debug\res
+org.tensorflow.lite.examples.objectdetection.app-main-46 D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\res

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:2:1-74:12
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:2:1-74:12
 MERGED from [androidx.databinding:databinding-adapters:7.3.1] C:\Users\metwa\.gradle\caches\transforms-3\6f7dc06db3544df554ceeb8ca29688d2\transformed\databinding-adapters-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-ktx:7.3.1] C:\Users\metwa\.gradle\caches\transforms-3\100c9e597d0a118ee800f05dccc6ca37\transformed\jetified-databinding-ktx-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-runtime:7.3.1] C:\Users\metwa\.gradle\caches\transforms-3\8e2c21e0f172e4ff8871cedfa9945dd3\transformed\databinding-runtime-7.3.1\AndroidManifest.xml:2:1-9:12
@@ -81,65 +81,65 @@ MERGED from [org.tensorflow:tensorflow-lite-task-base:0.4.0] C:\Users\metwa\.gra
 MERGED from [org.tensorflow:tensorflow-lite-support-api:0.4.0] C:\Users\metwa\.gradle\caches\transforms-3\4ca195521a2defd3ee9c1b1595b4c787\transformed\jetified-tensorflow-lite-support-api-0.4.0\AndroidManifest.xml:2:1-5:12
 MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\metwa\.gradle\caches\transforms-3\8be873a1c2c62ec28db5b8aa013dba67\transformed\jetified-tensorflow-lite-api-2.8.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\metwa\.gradle\caches\transforms-3\3c5ea3abadfbced3191d5f688d749fe5\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:2:1-74:12
 	package
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:5:5-59
-		INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:5:5-59
+		INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:2:1-74:12
-		INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:2:1-74:12
+		INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:4:5-51
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:4:5-51
 	xmlns:dist
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:3:5-61
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:3:5-61
 	android:versionCode
-		INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:2:1-74:12
-		INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:2:1-74:12
+		INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:2:11-69
 dist:module
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:7:5-40
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:7:5-40
 	dist:instant
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:7:18-37
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:7:18-37
 uses-feature#android.hardware.camera
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:8:5-60
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:8:5-60
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:8:19-57
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:8:19-57
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:9:5-65
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:9:5-65
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:9:22-62
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:9:22-62
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:10:5-67
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:10:5-67
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:10:22-64
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:10:22-64
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:12:5-81
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:12:22-78
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:13:5-82
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:13:5-82
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:13:22-79
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:13:22-79
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:14:5-79
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:14:22-76
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:14:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:15:5-81
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:15:5-81
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:15:22-78
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:15:22-78
 application
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:17:5-72:19
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:17:5-72:19
 MERGED from [androidx.window:window:1.0.0-alpha09] C:\Users\metwa\.gradle\caches\transforms-3\e89659e7d71760a1fe00eca773e2f411\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-alpha09] C:\Users\metwa\.gradle\caches\transforms-3\e89659e7d71760a1fe00eca773e2f411\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\metwa\.gradle\caches\transforms-3\3c2f35fc9db19b52846ea0abe63684a9\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -177,89 +177,89 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\metwa\.gradle\c
 	android:supportsRtl
 		ADDED from [com.tbuonomo:dotsindicator:4.3] C:\Users\metwa\.gradle\caches\transforms-3\b801d11d602b08cdb50f62ca4bd4d731\transformed\jetified-dotsindicator-4.3-debug\AndroidManifest.xml:9:18-44
 	android:label
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:20:9-41
 	tools:ignore
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:24:9-35
 	android:roundIcon
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:22:9-54
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:22:9-54
 	android:icon
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:19:9-43
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:19:9-43
 	android:allowBackup
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:18:9-35
 	android:networkSecurityConfig
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:21:9-69
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:21:9-69
 	android:taskAffinity
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:23:9-32
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:23:9-32
 activity#org.tensorflow.lite.examples.objectdetection.NearbyService
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:25:9-32:20
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:25:9-32:20
 	android:exported
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:27:13-37
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:27:13-37
 	android:theme
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:28:13-57
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:28:13-57
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:26:13-42
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:26:13-42
 meta-data#android.app.lib_name
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:29:13-31:36
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:29:13-31:36
 	android:value
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:31:17-33
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:31:17-33
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:30:17-52
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:30:17-52
 activity#org.tensorflow.lite.examples.objectdetection.NearbyPlacesPage
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:33:9-40:20
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:33:9-40:20
 	android:exported
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:35:13-37
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:35:13-37
 	android:theme
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:36:13-57
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:36:13-57
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:34:13-45
 activity#org.tensorflow.lite.examples.objectdetection.detailsPage
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:41:9-48:20
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:41:9-48:20
 	android:exported
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:43:13-37
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:43:13-37
 	android:theme
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:44:13-57
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:44:13-57
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:42:13-40
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:42:13-40
 activity#org.tensorflow.lite.examples.objectdetection.MainActivity
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:49:9-71:20
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:49:9-71:20
 	android:clearTaskOnLaunch
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:51:13-45
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:51:13-45
 	android:exported
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:53:13-36
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:53:13-36
 	android:resizeableActivity
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:55:13-46
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:55:13-46
 	android:rotationAnimation
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:56:13-49
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:56:13-49
 	android:configChanges
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:52:13-91
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:52:13-91
 	tools:targetApi
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:58:13-32
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:58:13-32
 	android:icon
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:54:13-47
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:54:13-47
 	android:theme
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:57:13-44
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:57:13-44
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:50:13-41
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:50:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:61:13-65:29
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:61:13-65:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:62:17-69
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:62:17-69
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:62:25-66
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:62:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:64:17-77
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:64:17-77
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:64:27-74
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:64:27-74
 meta-data#android.notch_support
-ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:68:13-70:40
+ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:68:13-70:40
 	android:value
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:70:17-37
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:70:17-37
 	android:name
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:69:17-53
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:69:17-53
 uses-sdk
-INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
+INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
+INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
 MERGED from [androidx.databinding:databinding-adapters:7.3.1] C:\Users\metwa\.gradle\caches\transforms-3\6f7dc06db3544df554ceeb8ca29688d2\transformed\databinding-adapters-7.3.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:databinding-adapters:7.3.1] C:\Users\metwa\.gradle\caches\transforms-3\6f7dc06db3544df554ceeb8ca29688d2\transformed\databinding-adapters-7.3.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:databinding-ktx:7.3.1] C:\Users\metwa\.gradle\caches\transforms-3\100c9e597d0a118ee800f05dccc6ca37\transformed\jetified-databinding-ktx-7.3.1\AndroidManifest.xml:5:5-7:41
@@ -412,17 +412,17 @@ MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\metwa\.gradle\ca
 MERGED from [org.tensorflow:tensorflow-lite-api:2.8.0] C:\Users\metwa\.gradle\caches\transforms-3\8be873a1c2c62ec28db5b8aa013dba67\transformed\jetified-tensorflow-lite-api-2.8.0\AndroidManifest.xml:7:5-8:41
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\metwa\.gradle\caches\transforms-3\3c5ea3abadfbced3191d5f688d749fe5\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\metwa\.gradle\caches\transforms-3\3c5ea3abadfbced3191d5f688d749fe5\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
-INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
+INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
+INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
-		MERGED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
+		MERGED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-alpha09] C:\Users\metwa\.gradle\caches\transforms-3\e89659e7d71760a1fe00eca773e2f411\transformed\jetified-window-1.0.0-alpha09\AndroidManifest.xml:25:9-27:40
 	android:required
@@ -482,4 +482,4 @@ ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\metwa\.gradle\c
 	android:name
 		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\metwa\.gradle\caches\transforms-3\36dc4a49a1d6d99498401d81cff2f7a3\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:2:1-74:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4
+IMPLIED from D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:2:1-74:12 reason: src.java.org.tensorflow.lite.task.core has a targetSdkVersion < 4

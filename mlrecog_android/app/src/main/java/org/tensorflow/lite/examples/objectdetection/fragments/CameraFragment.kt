@@ -439,7 +439,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
                       if (tf){
 
                           val croppedBitmap = Bitmap.createBitmap(rotatedBitmap, abs(left.toInt()), abs(top.toInt()), croppedWidth.toInt(), croppedHeight.toInt())
-                          showAndSaveImagePopup(croppedBitmap)
+                          showAndSaveImagePopup(croppedBitmap, results)
 
 
 
@@ -550,7 +550,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
     }
 
 
-    private fun showAndSaveImagePopup( bitmap: Bitmap) {
+    private fun showAndSaveImagePopup( bitmap: Bitmap, results: MutableList<Detection>?) {
 
 
         val builder = AlertDialog.Builder(context)
@@ -610,7 +610,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
             }
 
             val retrofit = Retrofit.Builder()
-                .baseUrl("http://20.204.180.252:8000/")
+                .baseUrl("https://mlrecog-062v.onrender.com/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
 
@@ -629,6 +629,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
                 ) {
                     if (response.isSuccessful) {
 
+
                         val endTime = System.currentTimeMillis()
                         val elapsedTime = endTime - startTime
 //                        Toast.makeText(context, "$elapsedTime ms", Toast.LENGTH_SHORT).show()
@@ -637,7 +638,8 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
                         val bmp = BitmapFactory.decodeByteArray(imageData, 0, imageData.size)
 
                         val responseData = response.headers()
-                        if (response.body() != null) {
+
+                        if (response.body() != null && responseData.get("status").toString() != "server error") {
                            val imgView: ImageView = (layout.getChildAt(0)) as ImageView
 
                             imgView.setImageBitmap(bmp)
@@ -748,23 +750,246 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
 
 
                             }
+                        } else {
+
+                            var label = results!!.first().categories.first().label.toString().capitalize().replace("\r", "")
+                            if (label == "Temple1"){
+                                label = "Gopinath"
+                            }else if (label == "Siddhilaxmi"){
+                                label = "Vatshala Devi"
+                            }
+
+                            layout.removeView(progressBar)
+                            val infoTextTitle = TextView(context)
+                            val spanTitle = "Predicted Data"
+                            val spannableString = SpannableString(spanTitle)
+                            spannableString.setSpan(StyleSpan(Typeface.BOLD), 0, spanTitle.length, 0)
+                            infoTextTitle.text = spannableString
+                            infoTextTitle.setPadding(80, 65, 20, 20)
+                            layout.addView(infoTextTitle)
+                            val infoTextView = TextView(context)
+                            val info =  "Name: " + label + "\nPred Conf: " + ((results!!.first().categories.first().score.toString().toFloat() * 100).toInt()).toString() + " %"
+                            infoTextView.setText(info)
+                            infoTextView.setPadding(80, 10, 20, 20)
+                            layout.addView(infoTextView)
+                            Toast.makeText(requireContext(), "Remote Server Offline", Toast.LENGTH_SHORT).show()
+
+
+
+                            val myButton = Button(context)
+                            myButton.setTextColor(Color.rgb(183,121,0))
+//                            myButton.setTextSize(20f)
+                            myButton.text = "  More Detail  "
+                            myButton.isAllCaps = false
+
+                            val shape = GradientDrawable()
+                            shape.shape = GradientDrawable.RECTANGLE
+                            shape.setColor(Color.WHITE)
+                            shape.cornerRadius = 18F
+                            myButton.background = shape
+
+
+
+                            layout.addView(myButton)
+                            val layoutParamss = LinearLayout.LayoutParams(
+                                LinearLayout.LayoutParams.WRAP_CONTENT,
+                                LinearLayout.LayoutParams.WRAP_CONTENT)
+                            layoutParamss.setMargins(75, 20, 20, 20)
+                            layoutParamss.gravity = Gravity.START
+                            myButton.layoutParams = layoutParamss
+                            myButton.setOnClickListener {
+                                val intent = Intent(context, detailsPage::class.java)
+                                intent.putExtra("DataKey", label)
+                                startActivity(intent)
+                            }
+
+
+
+
+                            saveButton.isEnabled = true
+                            saveButton.isClickable = true
+
+
+                            saveButton.setOnClickListener {
+
+
+
+                                val pictureFile: File? = getOutputMediaFile(label + "_" + ((results!!.first().categories.first().score.toString().toFloat() * 100).toInt()).toString())
+                                if (pictureFile == null) {
+                                    println("Check Permission")
+
+                                }
+                                try {
+                                    val fos = FileOutputStream(pictureFile)
+
+
+
+
+
+
+
+
+                                    try {
+                                        if (checkPermission()) {
+                                            Log.d(TAG, "onCreate: Permission already granted, create folder")
+
+                                        } else {
+                                            Log.d(TAG, "onCreate: Permission was not granted, request")
+                                            requestPermission()
+                                        }
+
+
+
+
+                                        val streamtemp = ByteArrayOutputStream()
+                                        bitmap.compress(Bitmap.CompressFormat.PNG, 90, streamtemp)
+                                        val imagetemp = streamtemp.toByteArray()
+                                        fos.write(imagetemp)
+
+                                        fos.flush();
+                                        fos.close()
+
+                                    } catch (e: java.lang.Exception) {
+                                        Log.e(TAG, e.message!!)
+                                    }
+
+
+
+                                    fos.flush();
+                                    fos.close()
+
+
+                                } catch (e: FileNotFoundException) {
+                                    println("File not found: ")
+                                } catch (e: IOException) {
+                                    println("Error accessing file: ")
+                                }
+                                Toast.makeText(requireContext(), "Image Saved", Toast.LENGTH_SHORT).show()
+                                dialog.dismiss()
+
+
+                            }
                         }
 
 
                     } else {
+                        var label = results!!.first().categories.first().label.toString().capitalize().replace("\r", "")
+                        if (label == "Temple1"){
+                            label = "Gopinath"
+                        }else if (label == "Siddhilaxmi"){
+                            label = "Vatshala Devi"
+                        }
+
                         layout.removeView(progressBar)
                         val infoTextTitle = TextView(context)
-                        val spanTitle = "No Monument Found"
+                        val spanTitle = "Predicted Data"
                         val spannableString = SpannableString(spanTitle)
                         spannableString.setSpan(StyleSpan(Typeface.BOLD), 0, spanTitle.length, 0)
                         infoTextTitle.text = spannableString
-                        infoTextTitle.setPadding(0, 80, 0, 80)
-                        val infoTextTitleLayoutParams = LinearLayout.LayoutParams(
+                        infoTextTitle.setPadding(80, 65, 20, 20)
+                        layout.addView(infoTextTitle)
+                        val infoTextView = TextView(context)
+                        val info =  "Name: " + label + "\nPred Conf: " + ((results!!.first().categories.first().score.toString().toFloat() * 100).toInt()).toString() + " %"
+                        infoTextView.setText(info)
+                        infoTextView.setPadding(80, 10, 20, 20)
+                        layout.addView(infoTextView)
+                        Toast.makeText(requireContext(), "Remote Server Offline", Toast.LENGTH_SHORT).show()
+
+
+
+                        val myButton = Button(context)
+                        myButton.setTextColor(Color.rgb(183,121,0))
+//                            myButton.setTextSize(20f)
+                        myButton.text = "  More Detail  "
+                        myButton.isAllCaps = false
+
+                        val shape = GradientDrawable()
+                        shape.shape = GradientDrawable.RECTANGLE
+                        shape.setColor(Color.WHITE)
+                        shape.cornerRadius = 18F
+                        myButton.background = shape
+
+
+
+                        layout.addView(myButton)
+                        val layoutParamss = LinearLayout.LayoutParams(
                             LinearLayout.LayoutParams.WRAP_CONTENT,
                             LinearLayout.LayoutParams.WRAP_CONTENT)
-                        infoTextTitleLayoutParams.gravity = Gravity.CENTER
-                        infoTextTitle.layoutParams = infoTextTitleLayoutParams
-                        layout.addView(infoTextTitle)
+                        layoutParamss.setMargins(75, 20, 20, 20)
+                        layoutParamss.gravity = Gravity.START
+                        myButton.layoutParams = layoutParamss
+                        myButton.setOnClickListener {
+                            val intent = Intent(context, detailsPage::class.java)
+                            intent.putExtra("DataKey", label)
+                            startActivity(intent)
+                        }
+
+
+
+
+                        saveButton.isEnabled = true
+                        saveButton.isClickable = true
+
+
+                        saveButton.setOnClickListener {
+
+
+
+                            val pictureFile: File? = getOutputMediaFile(label + "_" + ((results!!.first().categories.first().score.toString().toFloat() * 100).toInt()).toString())
+                            if (pictureFile == null) {
+                                println("Check Permission")
+
+                            }
+                            try {
+                                val fos = FileOutputStream(pictureFile)
+
+
+
+
+
+
+
+
+                                try {
+                                    if (checkPermission()) {
+                                        Log.d(TAG, "onCreate: Permission already granted, create folder")
+
+                                    } else {
+                                        Log.d(TAG, "onCreate: Permission was not granted, request")
+                                        requestPermission()
+                                    }
+
+
+
+
+                                    val streamtemp = ByteArrayOutputStream()
+                                    bitmap.compress(Bitmap.CompressFormat.PNG, 90, streamtemp)
+                                    val imagetemp = streamtemp.toByteArray()
+                                    fos.write(imagetemp)
+
+                                    fos.flush();
+                                    fos.close()
+
+                                } catch (e: java.lang.Exception) {
+                                    Log.e(TAG, e.message!!)
+                                }
+
+
+
+                                fos.flush();
+                                fos.close()
+
+
+                            } catch (e: FileNotFoundException) {
+                                println("File not found: ")
+                            } catch (e: IOException) {
+                                println("Error accessing file: ")
+                            }
+                            Toast.makeText(requireContext(), "Image Saved", Toast.LENGTH_SHORT).show()
+                            dialog.dismiss()
+
+
+                        }
                     }
                 }
 
@@ -822,7 +1047,7 @@ class CameraFragment : Fragment(), ObjectDetectorHelper.DetectorListener {
             return locn
         }else{
 
-          Toast.makeText(requireContext(), "Location Gave Null", Toast.LENGTH_SHORT).show()
+          Toast.makeText(requireContext(), "Please Turn On Location", Toast.LENGTH_SHORT).show()
             return "(27.6714,85.4293)"
         }
     }

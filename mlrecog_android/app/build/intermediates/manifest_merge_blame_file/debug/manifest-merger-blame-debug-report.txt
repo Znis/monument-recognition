@@ -7,141 +7,141 @@
 7
 8    <uses-sdk
 9        android:minSdkVersion="21"
-9-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
+9-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
 10        android:targetSdkVersion="32" />
-10-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml
+10-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml
 11    <!-- Enable instant app support -->
 12    <dist:module dist:instant="true" /> <!-- Declare features -->
-12-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:7:5-40
-12-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:7:18-37
+12-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:7:5-40
+12-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:7:18-37
 13    <uses-feature android:name="android.hardware.camera" /> <!-- Declare permissions -->
-13-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:8:5-60
-13-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:8:19-57
+13-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:8:5-60
+13-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:8:19-57
 14    <uses-permission android:name="android.permission.CAMERA" />
-14-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:9:5-65
-14-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:9:22-62
+14-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:9:5-65
+14-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:9:22-62
 15    <uses-permission android:name="android.permission.INTERNET" /> <!-- Permissions for the Android below 11 (R) -->
-15-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:10:5-67
-15-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:10:22-64
+15-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:10:5-67
+15-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:10:22-64
 16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-16-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:11:5-80
-16-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:11:22-77
+16-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:11:5-80
+16-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:11:22-77
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Permission for the Android 11 (R) and above -->
-17-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:12:5-81
-17-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:12:22-78
+17-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:12:5-81
+17-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:12:22-78
 18    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
-18-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:13:5-82
-18-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:13:22-79
+18-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:13:5-82
+18-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:13:22-79
 19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-19-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:14:5-79
-19-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:14:22-76
+19-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:14:5-79
+19-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:14:22-76
 20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-20-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:15:5-81
-20-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:15:22-78
+20-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:15:5-81
+20-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:15:22-78
 21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 22
 23    <application
-23-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:17:5-72:19
+23-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:17:5-72:19
 24        android:allowBackup="true"
-24-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:18:9-35
+24-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:18:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 25-->[androidx.core:core:1.7.0] C:\Users\metwa\.gradle\caches\transforms-3\2dd82e7b704c3e2473bb6b9cb3dd9b24\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 26        android:debuggable="true"
 27        android:icon="@mipmap/ic_launcher"
-27-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:19:9-43
+27-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:19:9-43
 28        android:label="@string/app_name"
-28-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:20:9-41
+28-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:20:9-41
 29        android:networkSecurityConfig="@xml/network_security_config"
-29-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:21:9-69
+29-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:21:9-69
 30        android:roundIcon="@mipmap/ic_launcher_round"
-30-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:22:9-54
+30-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:22:9-54
 31        android:supportsRtl="true"
 31-->[com.tbuonomo:dotsindicator:4.3] C:\Users\metwa\.gradle\caches\transforms-3\b801d11d602b08cdb50f62ca4bd4d731\transformed\jetified-dotsindicator-4.3-debug\AndroidManifest.xml:9:18-44
 32        android:taskAffinity="" >
-32-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:23:9-32
+32-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:23:9-32
 33        <activity
-33-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:25:9-32:20
+33-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:25:9-32:20
 34            android:name="org.tensorflow.lite.examples.objectdetection.NearbyService"
-34-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:26:13-42
+34-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:26:13-42
 35            android:exported="false"
-35-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:27:13-37
+35-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:27:13-37
 36            android:theme="@style/Theme.AppCompat.Light" >
-36-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:28:13-57
+36-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:28:13-57
 37            <meta-data
-37-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:29:13-31:36
+37-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:29:13-31:36
 38                android:name="android.app.lib_name"
-38-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:30:17-52
+38-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:30:17-52
 39                android:value="" />
-39-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:31:17-33
+39-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:31:17-33
 40        </activity>
 41        <activity
-41-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:33:9-40:20
+41-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:33:9-40:20
 42            android:name="org.tensorflow.lite.examples.objectdetection.NearbyPlacesPage"
-42-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:34:13-45
+42-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:34:13-45
 43            android:exported="false"
-43-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:35:13-37
+43-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:35:13-37
 44            android:theme="@style/Theme.AppCompat.Light" >
-44-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:36:13-57
+44-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:36:13-57
 45            <meta-data
-45-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:29:13-31:36
+45-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:29:13-31:36
 46                android:name="android.app.lib_name"
-46-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:30:17-52
+46-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:30:17-52
 47                android:value="" />
-47-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:31:17-33
+47-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:31:17-33
 48        </activity>
 49        <activity
-49-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:41:9-48:20
+49-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:41:9-48:20
 50            android:name="org.tensorflow.lite.examples.objectdetection.detailsPage"
-50-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:42:13-40
+50-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:42:13-40
 51            android:exported="false"
-51-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:43:13-37
+51-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:43:13-37
 52            android:theme="@style/Theme.AppCompat.Light" >
-52-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:44:13-57
+52-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:44:13-57
 53            <meta-data
-53-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:29:13-31:36
+53-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:29:13-31:36
 54                android:name="android.app.lib_name"
-54-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:30:17-52
+54-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:30:17-52
 55                android:value="" />
-55-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:31:17-33
+55-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:31:17-33
 56        </activity>
 57        <activity
-57-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:49:9-71:20
+57-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:49:9-71:20
 58            android:name="org.tensorflow.lite.examples.objectdetection.MainActivity"
-58-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:50:13-41
+58-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:50:13-41
 59            android:clearTaskOnLaunch="true"
-59-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:51:13-45
+59-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:51:13-45
 60            android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize"
-60-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:52:13-91
+60-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:52:13-91
 61            android:exported="true"
-61-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:53:13-36
+61-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:53:13-36
 62            android:icon="@mipmap/ic_launcher"
-62-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:54:13-47
+62-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:54:13-47
 63            android:resizeableActivity="true"
-63-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:55:13-46
+63-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:55:13-46
 64            android:rotationAnimation="seamless"
-64-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:56:13-49
+64-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:56:13-49
 65            android:theme="@style/AppTheme" >
-65-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:57:13-44
+65-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:57:13-44
 66
 67            <!-- Main app intent filter -->
 68            <intent-filter>
-68-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:61:13-65:29
+68-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:61:13-65:29
 69                <action android:name="android.intent.action.MAIN" />
-69-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:62:17-69
-69-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:62:25-66
+69-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:62:17-69
+69-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:62:25-66
 70
 71                <category android:name="android.intent.category.LAUNCHER" />
-71-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:64:17-77
-71-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:64:27-74
+71-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:64:17-77
+71-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:64:27-74
 72            </intent-filter>
 73
 74            <!-- Declare notch support -->
 75            <meta-data
-75-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:68:13-70:40
+75-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:68:13-70:40
 76                android:name="android.notch_support"
-76-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:69:17-53
+76-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:69:17-53
 77                android:value="true" />
-77-->C:\Users\metwa\Downloads\od\app\src\main\AndroidManifest.xml:70:17-37
+77-->D:\projects\compiled nov 8\monumentrecogcompiledrepository\mlrecog_android\app\src\main\AndroidManifest.xml:70:17-37
 78        </activity>
 79
 80        <uses-library
